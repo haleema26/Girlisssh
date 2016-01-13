@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewBag.Title = "shipping";
+}
+
+<!---->
+<div class="top-nav">
+    <span class="menu">MENU </span>
+    <ul>
+        <li >@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("NEW PRODUCTS", "Product", "Product") </li>
+        <li class="active">@Html.ActionLink("SHIPPING", "shipping", "Product") </li>
+        <li>@Html.ActionLink("About Us", "About", "Home")</li>
+    </ul>
+    <!--script-->
+    <script>
+        $("span.menu").click(function () {
+            $(".top-nav ul").slideToggle(500, function () {
+            });
+        });
+    </script>
+</div>
+<!---->
+<div class="shipping-top">
+    <h2>Shipping</h2>
+    <div class="shipping">
+        <div class="col-md-4 shipping-left">
+           
+            <div class="top-ship">
+                <h3>Standard Delivery Schedule</h3>
+                <div class="order">
+                    <label>Order placed</label>
+                    <span>Order received</span>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="order-top">
+                    <label>Monday</label>
+                    <span>Thursday</span>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="order-top">
+                    <label>Tuesday</label>
+                    <span>Friday</span>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="order-top">
+                    <label>Wednesday </label>
+                    <span>Saturday</span>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="order-top">
+                    <label>Thursday</label>
+                    <span>Sunday</span>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="order-top">
+                    <label>Friday</label>
+                    <span>Monday</span>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="order-top">
+                    <label>Saturday</label>
+                    <span>Tuesday</span>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="order-top">
+                    <label>Sunday</label>
+                    <span>Wednesday</span>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 shipping-right">
+            <div class="bottom-ship">
+                <h3>Shipping In</h3>
+                <p>Shopping from Pakistan has never been so easy. With a single click at www.jewelleryonlineshopping.com you have your shopping delivered to you at your doorsteps within 3 working days. Shipping charges are displayed on the checkout process. You just need to enter your address and our system will automatically show you the shipping charges and estimated delivery date.
+</p>
+            </div>
+            <div class="bottom-ship-top">
+                <h3>Disclaimer:</h3>
+                <p>This is for your information that certain countries attract custom duties & taxes which depend from country to country. The final price in this invoice is exclusive of govt taxes and duties that may be applied and as such are payable by the buyer.</p>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"> </div>
+</div>			
